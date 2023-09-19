@@ -5,8 +5,8 @@ export const ListItem = styled.li`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-self: center;
-  margin: 10px;
+  align-items: center;
+  margin: 0px;
   @media screen and (min-width: 768px) {
     width: 400px;
     margin-right: 20px;
