@@ -12,10 +12,10 @@ export const FormContainer = styled.form`
   background-color: ${props => props.formColor};
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 50px;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 35%;
+  width: 30%;
   @media screen and (max-width: 576px) {
     width: 90%;
   }
@@ -39,6 +39,7 @@ export const InputLabel = styled.label`
   font-size: 13px;
   color: ${props => props.color};
   font-weight: 500;
+  margin-top: 8px;
 `
 export const UserInput = styled.input`
   font-family: 'Roboto';
