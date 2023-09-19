@@ -65,10 +65,12 @@ const Header = props => (
                 <BsMoon size={25} />
               )}
             </ThemeButton>
-            <ProfileImage
-              src="https://res.cloudinary.com/dz3mpsjbn/image/upload/v1695057779/Profile-pic_piikdv.jpg"
-              alt="profile"
-            />
+            <a href="https://www.linkedin.com/in/premrathan/">
+              <ProfileImage
+                src="https://res.cloudinary.com/dz3mpsjbn/image/upload/v1695057779/Profile-pic_piikdv.jpg"
+                alt="profile"
+              />
+            </a>
             <Popup
               modal
               trigger={
