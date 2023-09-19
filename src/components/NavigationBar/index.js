@@ -1,5 +1,5 @@
 import {Component} from 'react'
-import {AiFillHome} from 'react-icons/ai'
+import {AiFillHome, AiFillGithub} from 'react-icons/ai'
 import {HiFire} from 'react-icons/hi'
 import {SiYoutubegaming} from 'react-icons/si'
 import {CgPlayListAdd} from 'react-icons/cg'
@@ -111,10 +111,9 @@ class NavigationBar extends Component {
                         alt="facebook logo"
                       />
                     </a>
-                    <ContactImage
-                      src="https://assets.ccbp.in/frontend/react-js/nxt-watch-twitter-logo-img.png"
-                      alt="twitter logo"
-                    />
+                    <a href="https://github.com/PremRathan2003/Nxt_Watch">
+                      <AiFillGithub size={30} />
+                    </a>
                     <a href="https://www.linkedin.com/in/premrathan/">
                       <ContactImage
                         src="https://assets.ccbp.in/frontend/react-js/nxt-watch-linked-in-logo-img.png"
